@@ -11,3 +11,6 @@ from sklearn import linear_model
 from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.datasets import load_boston
+data = pd.read_csv('housing.csv')
+print(data.shape)
